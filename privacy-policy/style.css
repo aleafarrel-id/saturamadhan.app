@@ -118,7 +118,8 @@ body {
   background-color: var(--clr-bg-dark);
   color: var(--clr-text-primary);
   line-height: 1.6;
-  min-height: 100dvh;
+  min-height: 100vh;
+  min-height: 100svh;
   overflow-x: hidden;
 }
 
@@ -127,7 +128,10 @@ body {
    ========================================================================== */
 .bg-canvas {
   position: fixed;
-  inset: 0;
+  top: -100px;
+  bottom: -100px;
+  left: 0;
+  right: 0;
   z-index: 0;
   background: var(--clr-bg-gradient);
   overflow: hidden;
@@ -193,7 +197,8 @@ body {
 .page-wrapper {
   position: relative;
   z-index: 1;
-  min-height: 100dvh;
+  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
 }
