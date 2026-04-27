@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Privacy Policy</title>
+  <meta name="description"
+    content="Privacy Policy for Satu Ramadhan — a comprehensive Islamic app featuring prayer times, Al-Qur'an, Qibla direction, and smart Tasbih." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://saturamadhan.github.io/privacy-policy/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy — Satu Ramadhan" />
+  <meta property="og:description" content="How Satu Ramadhan collects, uses, and protects your information." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://saturamadhan.github.io/privacy-policy/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Boxicons CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/icon/favicon.png" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scroll-progress" role="progressbar" aria-label="Reading progress"></div>
+
+  <!-- Background -->
+  <div class="bg-canvas" aria-hidden="true">
+    <div class="bg-stars"></div>
+  </div>
+
+  <div class="page-wrapper">
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" role="banner">
+      <div class="container">
+        <div class="header-inner">
+          <a href="https://saturamadhan.github.io" class="header-brand" aria-label="Satu Ramadhan Home">
+            <img src="../assets/icon/favicon.png" alt="Satu Ramadhan App Icon" class="brand-icon"
+              onerror="this.style.display='none'" />
+            <div class="brand-text">
+              <span class="brand-name">Satu Ramadhan</span>
+              <span class="brand-subtitle" data-i18n="header_subtitle">Privacy Policy</span>
+            </div>
+          </a>
+
+          <!-- Language Switcher -->
+          <div class="lang-switcher" role="group" aria-label="Language selector">
+            <button id="lang-en" class="lang-btn active" onclick="setLang('en')" aria-pressed="true">
+              <i class='bx bx-globe'></i> EN
+            </button>
+            <button id="lang-id" class="lang-btn" onclick="setLang('id')" aria-pressed="false">
+              <i class='bx bx-globe'></i> ID
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== MAIN ===================== -->
+    <main class="content" id="main-content">
+      <div class="container">
+
+        <!-- HERO -->
+        <section class="hero" aria-labelledby="hero-heading">
+          <span class="hero-ornament" aria-hidden="true">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</span>
+          <div class="hero-badge">
+            <i class='bx bx-shield-quarter'></i>
+            <span data-i18n="hero_badge">Privacy Policy</span>
+          </div>
+          <h1 class="hero-title" id="hero-heading">
+            <span data-i18n="hero_title_1">Your Privacy,</span>
+            <span class="accent" data-i18n="hero_title_2">Our Commitment.</span>
+          </h1>
+          <p class="hero-description" data-i18n="hero_desc">
+            Satu Ramadhan is built with respect for your personal data. This page explains clearly how we handle your
+            information — because transparency is part of our values.
+          </p>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <i class='bx bx-calendar'></i>
+              <span data-i18n="effective_label">Effective:</span>&nbsp;<strong>April 27, 2026</strong>
+            </div>
+            <div class="hero-meta-item">
+              <i class='bx bx-package'></i>
+              <span>com.saturamadhan.app</span>
+            </div>
+            <div class="hero-meta-item">
+              <i class='bx bxl-android'></i>
+              <span>Android</span>
+            </div>
+          </div>
+          <div class="hero-divider" aria-hidden="true"></div>
+        </section>
+
+        <!-- TABLE OF CONTENTS -->
+        <nav class="toc-card js-reveal" aria-label="Table of contents">
+          <div class="toc-title">
+            <i class='bx bx-list-ul'></i>
+            <span data-i18n="toc_title">Table of Contents</span>
+          </div>
+          <ul class="toc-list">
+            <li><a href="#section-overview"><i class='bx bx-info-circle'></i> <span
+                  data-i18n="toc_1">Overview</span></a></li>
+            <li><a href="#section-data-collected"><i class='bx bx-data'></i> <span data-i18n="toc_2">Data
+                  Collected</span></a></li>
+            <li><a href="#section-permissions"><i class='bx bx-shield'></i> <span data-i18n="toc_3">App
+                  Permissions</span></a></li>
+            <li><a href="#section-data-use"><i class='bx bx-cog'></i> <span data-i18n="toc_4">How We Use Data</span></a>
+            </li>
+            <li><a href="#section-data-sharing"><i class='bx bx-share-alt'></i> <span data-i18n="toc_5">Data
+                  Sharing</span></a></li>
+            <li><a href="#section-storage"><i class='bx bx-hdd'></i> <span data-i18n="toc_6">Data Storage</span></a>
+            </li>
+            <li><a href="#section-children"><i class='bx bx-child'></i> <span data-i18n="toc_7">Children's
+                  Privacy</span></a></li>
+            <li><a href="#section-rights"><i class='bx bx-user-check'></i> <span data-i18n="toc_8">Your
+                  Rights</span></a></li>
+            <li><a href="#section-changes"><i class='bx bx-edit'></i> <span data-i18n="toc_9">Policy Changes</span></a>
+            </li>
+            <li><a href="#section-contact"><i class='bx bx-envelope'></i> <span data-i18n="toc_10">Contact Us</span></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 1. OVERVIEW -->
+        <section class="section-card js-reveal" id="section-overview" aria-labelledby="title-overview">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-info-circle'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">01</div>
+              <h2 class="section-title" id="title-overview" data-i18n="s1_title">Overview</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s1_p1">
+              This Privacy Policy applies to <strong>Satu Ramadhan</strong> (package name:
+              <strong>com.saturamadhan.app</strong>), an Islamic companion app for Android developed by <strong>Alea
+                Farrel</strong>. By using the application, you agree to the practices described in this policy.
+            </p>
+            <p data-i18n="s1_p2">
+              Satu Ramadhan is a comprehensive worship companion featuring accurate prayer times, Adhan reminders, a
+              full digital Al-Qur'an with Tajweed highlighting, Qibla direction with a live map, and a smart digital
+              Tasbih. We are committed to protecting your privacy and handling your data with full transparency.
+            </p>
+            <div class="highlight-box" data-i18n="s1_highlight">
+              <strong>Short version:</strong> Satu Ramadhan does not sell your data. We do not create user accounts. We operate no servers and store no user data on any developer-owned infrastructure. Location data is processed on-device to calculate prayer times and Qibla direction — it is only sent to public third-party APIs (Aladhan, Nominatim OpenStreetMap) solely to serve the app's features.
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. DATA COLLECTED -->
+        <section class="section-card js-reveal" id="section-data-collected" aria-labelledby="title-data-collected">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-data'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">02</div>
+              <h2 class="section-title" id="title-data-collected" data-i18n="s2_title">Data We Collect</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s2_p1">We collect only the minimum data required for the app to function properly. Here is a
+              complete list of what the app accesses:</p>
+            <ul class="info-list" id="data-list">
+              <li><i class='bx bx-map-pin'></i> <span data-i18n="s2_item1"><strong>Location (GPS):</strong> Used locally for Qibla direction, and sent temporarily to public APIs (Aladhan, Nominatim) strictly to fetch accurate prayer times and your city name. Coordinates are never stored or sold.</span></li>
+              <li><i class='bx bx-bell'></i> <span data-i18n="s2_item2"><strong>Notification Preferences:</strong> Your
+                  Adhan reminder settings (which prayers are enabled, notification times) are stored locally on your
+                  device using device storage.</span></li>
+              <li><i class='bx bx-volume-full'></i> <span data-i18n="s2_item3"><strong>Audio Playback:</strong> Adhan
+                  audio files are played locally. No audio data is recorded or captured from your device.</span></li>
+              <li><i class='bx bx-folder'></i> <span data-i18n="s2_item4"><strong>Local Storage:</strong> App
+                  preferences (language, theme, Tasbih counts, bookmarks) are saved locally on your device. This data
+                  never leaves your device.</span></li>
+              <li><i class='bx bx-wifi'></i> <span data-i18n="s2_item5"><strong>Network Access:</strong> Used to contact third-party public APIs: <strong>Aladhan API</strong> (prayer times), <strong>Nominatim OpenStreetMap</strong> (reverse geocoding for city name), and <strong>EveryAyah API</strong> (Quranic audio recitation). Only the minimum required parameters (e.g. coordinates) are sent — no personal identifiers are ever transmitted.</span></li>
+            </ul>
+            <p data-i18n="s2_p2">We do <strong>not</strong> collect: your name, email address, phone number, payment information, browsing history, device identifiers for advertising, or any other personally identifiable information.</p>
+          </div>
+        </section>
+
+        <!-- 3. PERMISSIONS -->
+        <section class="section-card js-reveal" id="section-permissions" aria-labelledby="title-permissions">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-shield'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">03</div>
+              <h2 class="section-title" id="title-permissions" data-i18n="s3_title">App Permissions</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s3_p1">Satu Ramadhan requests the following Android permissions. Each permission is used
+              solely for the stated feature:</p>
+            <div class="permission-grid">
+              <div class="permission-chip">
+                <i class='bx bx-map'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">ACCESS_FINE_LOCATION</span>
+                  <span class="permission-desc" data-i18n="perm1_desc">Prayer times & Qibla</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-map-alt'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">ACCESS_COARSE_LOCATION</span>
+                  <span class="permission-desc" data-i18n="perm2_desc">Approximate location fallback</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-wifi'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">INTERNET</span>
+                  <span class="permission-desc" data-i18n="perm3_desc">Online data fallback</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-bell'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">POST_NOTIFICATIONS</span>
+                  <span class="permission-desc" data-i18n="perm4_desc">Adhan reminders</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-time'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">SCHEDULE_EXACT_ALARM</span>
+                  <span class="permission-desc" data-i18n="perm5_desc">Precise prayer notifications</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-volume-full'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">FOREGROUND_SERVICE</span>
+                  <span class="permission-desc" data-i18n="perm6_desc">Audio playback service</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-mobile-vibration'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">VIBRATE</span>
+                  <span class="permission-desc" data-i18n="perm7_desc">Haptic feedback</span>
+                </div>
+              </div>
+              <div class="permission-chip">
+                <i class='bx bx-battery'></i>
+                <div class="permission-chip-text">
+                  <span class="permission-name">WAKE_LOCK</span>
+                  <span class="permission-desc" data-i18n="perm8_desc">Keep notifications reliable</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. HOW WE USE DATA -->
+        <section class="section-card js-reveal" id="section-data-use" aria-labelledby="title-data-use">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-cog'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">04</div>
+              <h2 class="section-title" id="title-data-use" data-i18n="s4_title">How We Use Your Data</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s4_p1">All data accessed by Satu Ramadhan is used exclusively for the following purposes:</p>
+            <ul class="info-list">
+              <li><i class='bx bx-check-circle'></i> <span data-i18n="s4_item1">Calculate accurate prayer times by sending your coordinates to the <strong>Aladhan API</strong> (aladhan.com) — a free, public Islamic prayer times service. No account or personal identifier is included in the request.</span></li>
+              <li><i class='bx bx-check-circle'></i> <span data-i18n="s4_item2">Reverse-geocode your location to display a city name using <strong>Nominatim OpenStreetMap</strong> (nominatim.openstreetmap.org). Only coordinates are sent; no personal data is attached.</span></li>
+              <li><i class='bx bx-check-circle'></i> <span data-i18n="s4_item3">Stream Quranic verse audio recitations on demand from <strong>EveryAyah API</strong> (everyayah.com). Requests contain only the surah and verse number — no user data.</span></li>
+              <li><i class='bx bx-check-circle'></i> <span data-i18n="s4_item4">Determine Qibla direction and deliver scheduled Adhan notifications — all processed locally on your device.</span></li>
+              <li><i class='bx bx-check-circle'></i> <span data-i18n="s4_item5">Store your personal preferences (theme, language, bookmarks, Tasbih counts) locally on your device between sessions.</span></li>
+            </ul>
+            <p data-i18n="s4_p2">We do not use your data for advertising, profiling, analytics sold to third parties, or
+              any purpose beyond what is described above.</p>
+          </div>
+        </section>
+
+        <!-- 5. DATA SHARING -->
+        <section class="section-card js-reveal" id="section-data-sharing" aria-labelledby="title-data-sharing">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-share-alt'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">05</div>
+              <h2 class="section-title" id="title-data-sharing" data-i18n="s5_title">Data Sharing</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s5_p1"><strong>We do not sell, trade, or rent your personal information to any third
+                party.</strong></p>
+            <p data-i18n="s5_p2">Satu Ramadhan does not integrate any third-party advertising SDKs, analytics platforms
+              (such as Firebase Analytics, Crashlytics, or similar), or social media tracking pixels. The app does not
+              transmit personal or sensitive user data to any external server.</p>
+            <p data-i18n="s5_p3">The only external network calls the app may make are:</p>
+            <ul class="info-list">
+              <li><i class='bx bx-globe'></i> <span data-i18n="s5_item1"><strong>Aladhan API</strong> (aladhan.com) — receives your geographic coordinates to return prayer times. No account, name, or device identifier is included.</span></li>
+              <li><i class='bx bx-globe'></i> <span data-i18n="s5_item2"><strong>Nominatim OpenStreetMap</strong> (nominatim.openstreetmap.org) — receives your coordinates to return a human-readable city name for display purposes only.</span></li>
+              <li><i class='bx bx-globe'></i> <span data-i18n="s5_item3"><strong>EveryAyah API</strong> (everyayah.com) — receives a surah and verse number to stream the corresponding Quranic audio. No user data is sent.</span></li>
+            </ul>
+            <p data-i18n="s5_p4">None of these requests include device identifiers, account information, advertising IDs, or any other personal data. We do not operate any developer-owned server or database.</p>
+          </div>
+        </section>
+
+        <!-- 6. DATA STORAGE & SECURITY -->
+        <section class="section-card js-reveal" id="section-storage" aria-labelledby="title-storage">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-hdd'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">06</div>
+              <h2 class="section-title" id="title-storage" data-i18n="s6_title">Data Storage & Security</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s6_p1">All user preferences, bookmarks, Tasbih counts, and notification settings are stored <strong>locally on your device</strong> using Android's secure storage mechanisms (SharedPreferences / Capacitor Preferences). This data is private to the application and not accessible to other apps.</p>
+            <p data-i18n="s6_p2"><strong>Retention:</strong> App data is retained as long as the application is installed. You can clear all app data through Android's system settings (Settings → Apps → Satu Ramadhan → Clear Data).</p>
+            <p data-i18n="s6_p3"><strong>Security:</strong> Satu Ramadhan does not maintain any developer-owned server or database. User data is never uploaded to or stored on any server controlled by the developer. The only outbound network requests go to named public APIs (Aladhan, Nominatim, EveryAyah) with no personal identifiers attached.</p>
+            <div class="highlight-box" data-i18n="s6_highlight">
+              Because we do not operate user accounts or cloud storage, there is no "account deletion" process — simply uninstalling the app removes all associated data from your device permanently.
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. CHILDREN'S PRIVACY -->
+        <section class="section-card js-reveal" id="section-children" aria-labelledby="title-children">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-child'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">07</div>
+              <h2 class="section-title" id="title-children" data-i18n="s7_title">Children's Privacy</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s7_p1">Satu Ramadhan is a general-audience application suitable for all ages. The app does not
+              knowingly collect any personal information from children under 13 years of age, or under any higher
+              applicable age threshold defined by local law.</p>
+            <p data-i18n="s7_p2">Since we do not collect personal data from any user (regardless of age), this
+              application is inherently safe for use by children under parental guidance. If you believe your child has
+              provided us with personal information, please contact us immediately so we can address the concern.</p>
+          </div>
+        </section>
+
+        <!-- 8. YOUR RIGHTS -->
+        <section class="section-card js-reveal" id="section-rights" aria-labelledby="title-rights">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-user-check'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">08</div>
+              <h2 class="section-title" id="title-rights" data-i18n="s8_title">Your Rights</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s8_p1">Regardless of your location, you have the following rights with respect to your data:
+            </p>
+            <ul class="info-list">
+              <li><i class='bx bx-show'></i> <span data-i18n="s8_item1"><strong>Right to Know:</strong> You can ask us
+                  what data (if any) we hold about you. As described above, we hold no server-side personal data.</span>
+              </li>
+              <li><i class='bx bx-trash'></i> <span data-i18n="s8_item2"><strong>Right to Delete:</strong> You can
+                  delete all locally stored data by going to Android Settings → Apps → Satu Ramadhan → Clear Data, or by
+                  uninstalling the app.</span></li>
+              <li><i class='bx bx-stop-circle'></i> <span data-i18n="s8_item3"><strong>Right to Withdraw
+                    Consent:</strong> You can revoke any permission (location, notifications) at any time through
+                  Android's permission settings without uninstalling the app.</span></li>
+              <li><i class='bx bx-envelope'></i> <span data-i18n="s8_item4"><strong>Right to Contact:</strong> You can
+                  reach us at any time with questions or requests about privacy. We will respond within a reasonable
+                  timeframe.</span></li>
+            </ul>
+            <p data-i18n="s8_p2">If you are located in the European Economic Area (EEA) or the United Kingdom, you may
+              also have rights under GDPR, including the right to data portability and the right to lodge a complaint
+              with a supervisory authority. For Indonesian users, your rights are covered under the Personal Data
+              Protection Law (UU PDP No. 27 Tahun 2022).</p>
+          </div>
+        </section>
+
+        <!-- 9. POLICY CHANGES -->
+        <section class="section-card js-reveal" id="section-changes" aria-labelledby="title-changes">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-edit'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">09</div>
+              <h2 class="section-title" id="title-changes" data-i18n="s9_title">Changes to This Policy</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s9_p1">We may update this Privacy Policy periodically to reflect changes in the application's
+              features or applicable legal requirements. When we make significant changes, we will update the "Effective
+              Date" at the top of this page.</p>
+            <p data-i18n="s9_p2">We encourage you to review this page occasionally. Your continued use of Satu Ramadhan
+              after any changes constitutes your acceptance of the updated policy. If you disagree with any changes, you
+              may stop using the app and delete it from your device.</p>
+            <p data-i18n="s9_p3">This page is hosted at a permanent, public URL and does not require any login or
+              special software to access, in accordance with Google Play Developer Policy requirements.</p>
+          </div>
+        </section>
+
+        <!-- 10. CONTACT -->
+        <section class="section-card js-reveal" id="section-contact" aria-labelledby="title-contact">
+          <div class="section-header">
+            <div class="section-icon" aria-hidden="true"><i class='bx bx-envelope'></i></div>
+            <div class="section-title-group">
+              <div class="section-number">10</div>
+              <h2 class="section-title" id="title-contact" data-i18n="s10_title">Contact Us</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <p data-i18n="s10_p1">If you have any questions, concerns, or requests regarding this Privacy Policy or the
+              data practices of Satu Ramadhan, please do not hesitate to reach out. We are committed to responding to
+              all privacy-related inquiries.</p>
+            <div class="contact-card">
+              <div class="contact-icon"><i class='bx bx-envelope'></i></div>
+              <div class="contact-info">
+                <div class="contact-label" data-i18n="contact_label">Developer Contact</div>
+                <a href="mailto:aleafarrel.dev@gmail.com" class="contact-value">aleafarrel.dev@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-card" style="margin-top: var(--sp-3);">
+              <div class="contact-icon"><i class='bx bx-globe'></i></div>
+              <div class="contact-info">
+                <div class="contact-label" data-i18n="website_label">Website</div>
+                <a href="https://saturamadhan.github.io" class="contact-value">saturamadhan.github.io</a>
+              </div>
+            </div>
+            <p style="margin-top: var(--sp-4);" data-i18n="s10_p2">
+              <strong>Developer:</strong> Alea Farrel &nbsp;|&nbsp; <strong>App:</strong> Satu Ramadhan &nbsp;|&nbsp;
+              <strong>Package:</strong> com.saturamadhan.app
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <span class="footer-ornament" aria-hidden="true">— ﷽ —</span>
+        <div class="footer-app">
+          <img src="https://saturamadhan.github.io/icon.png" alt="Satu Ramadhan" class="footer-icon"
+            onerror="this.style.display='none'" />
+          <span class="footer-app-name">Satu Ramadhan</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="current-year">2026</span> Alea Farrel. <span data-i18n="footer_rights">All rights
+            reserved.</span><br />
+          <span data-i18n="footer_desc">Built with care for the Muslim community.</span>
+        </p>
+        <div class="footer-links">
+          <a href="#main-content" data-i18n="footer_back_top">Back to top</a>
+          <span class="footer-divider" aria-hidden="true">•</span>
+          <a href="https://play.google.com/store" target="_blank" rel="noopener" data-i18n="footer_play_store">Google
+            Play Store</a>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- Back to Top -->
+  <a href="#main-content" class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class='bx bx-chevron-up'></i>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
