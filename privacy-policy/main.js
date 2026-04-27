@@ -21,7 +21,7 @@ const TRANSLATIONS = {
     toc_9: 'Policy Changes', toc_10: 'Contact Us',
 
     s1_title: 'Overview',
-    s1_p1: 'This Privacy Policy applies to <strong>Satu Ramadhan</strong> (package: <strong>com.saturamadhan.app</strong>), an Islamic companion app for Android developed by <strong>Alea Farrel</strong>. By using the application, you agree to the practices described in this policy.',
+    s1_p1: 'This Privacy Policy applies to <strong>Satu Ramadhan</strong> (package: <strong>com.saturamadhan.mobile</strong>), an Islamic companion app for Android developed by <strong>Alea Farrel</strong>. By using the application, you agree to the practices described in this policy.',
     s1_p2: 'Satu Ramadhan is a comprehensive worship companion featuring accurate prayer times, Adhan reminders, a full digital Al-Qur\'an with Tajweed highlighting, Qibla direction with a live map, and a smart digital Tasbih.',
     s1_highlight: '<strong>Short version:</strong> Satu Ramadhan does not sell your data. We do not create user accounts. We operate no servers and store no user data on any developer-owned infrastructure. Location data is processed on-device to calculate prayer times and Qibla direction — it is only sent to public third-party APIs (Aladhan, Nominatim OpenStreetMap) solely to serve the app\'s features.',
 
@@ -86,7 +86,7 @@ const TRANSLATIONS = {
     s10_p1: 'If you have any questions, concerns, or requests regarding this Privacy Policy, please reach out. We are committed to responding to all privacy-related inquiries.',
     contact_label: 'Developer Contact',
     website_label: 'Website',
-    s10_p2: '<strong>Developer:</strong> Alea Farrel &nbsp;|&nbsp; <strong>App:</strong> Satu Ramadhan &nbsp;|&nbsp; <strong>Package:</strong> com.saturamadhan.app',
+    s10_p2: '<strong>Developer:</strong> Alea Farrel &nbsp;|&nbsp; <strong>App:</strong> Satu Ramadhan &nbsp;|&nbsp; <strong>Package:</strong> com.saturamadhan.mobile',
 
     footer_rights: 'All rights reserved.',
     footer_desc: 'Built with care for the Muslim community.',
@@ -108,7 +108,7 @@ const TRANSLATIONS = {
     toc_9: 'Perubahan Kebijakan', toc_10: 'Hubungi Kami',
 
     s1_title: 'Ikhtisar',
-    s1_p1: 'Kebijakan Privasi ini berlaku untuk <strong>Satu Ramadhan</strong> (nama paket: <strong>com.saturamadhan.app</strong>), aplikasi pendamping ibadah Islam untuk Android yang dikembangkan oleh <strong>Alea Farrel</strong>. Dengan menggunakan aplikasi ini, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.',
+    s1_p1: 'Kebijakan Privasi ini berlaku untuk <strong>Satu Ramadhan</strong> (nama paket: <strong>com.saturamadhan.mobile</strong>), aplikasi pendamping ibadah Islam untuk Android yang dikembangkan oleh <strong>Alea Farrel</strong>. Dengan menggunakan aplikasi ini, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.',
     s1_p2: 'Satu Ramadhan adalah aplikasi islami komprehensif yang menampilkan jadwal sholat akurat, pengingat adzan, Al-Qur\'an digital lengkap dengan sorotan Tajweed, arah kiblat dengan peta langsung, dan Tasbih digital pintar.',
     s1_highlight: '<strong>Ringkasan:</strong> Satu Ramadhan tidak menjual data Anda. Kami tidak membuat akun pengguna. Kami tidak mengoperasikan server maupun menyimpan data pengguna di infrastruktur milik pengembang. Data lokasi diproses di perangkat dan hanya dikirim ke API pihak ketiga publik (Aladhan, Nominatim OpenStreetMap) semata-mata untuk menjalankan fitur aplikasi.',
 
@@ -173,7 +173,7 @@ const TRANSLATIONS = {
     s10_p1: 'Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan mengenai Kebijakan Privasi ini, jangan ragu untuk menghubungi kami. Kami berkomitmen untuk merespons semua pertanyaan terkait privasi.',
     contact_label: 'Kontak Pengembang',
     website_label: 'Situs Web',
-    s10_p2: '<strong>Pengembang:</strong> Alea Farrel &nbsp;|&nbsp; <strong>Aplikasi:</strong> Satu Ramadhan &nbsp;|&nbsp; <strong>Paket:</strong> com.saturamadhan.app',
+    s10_p2: '<strong>Pengembang:</strong> Alea Farrel &nbsp;|&nbsp; <strong>Aplikasi:</strong> Satu Ramadhan &nbsp;|&nbsp; <strong>Paket:</strong> com.saturamadhan.mobile',
 
     footer_rights: 'Semua hak dilindungi.',
     footer_desc: 'Dibangun dengan penuh perhatian untuk umat Muslim.',
