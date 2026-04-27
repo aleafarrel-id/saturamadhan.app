@@ -118,7 +118,7 @@ body {
   background-color: var(--clr-bg-dark);
   color: var(--clr-text-primary);
   line-height: 1.6;
-  min-height: 100vh;
+  min-height: 100dvh;
   overflow-x: hidden;
 }
 
@@ -193,7 +193,7 @@ body {
 .page-wrapper {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
